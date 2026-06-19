@@ -1,0 +1,59 @@
+[
+    {
+        "Name": "exam-network",
+        "Id": "832d5e72f6cdc27d1c0369f38a2b66c0d18464e7dd4fedde420346b0c32ceb07",
+        "Created": "2026-06-19T03:24:01.386454996Z",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv4": true,
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.20.0.0/16",
+                    "Gateway": "172.20.0.1"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Options": {
+            "com.docker.network.enable_ipv4": "true",
+            "com.docker.network.enable_ipv6": "false"
+        },
+        "Labels": {},
+        "Containers": {
+            "4d7121c41d0a863c8a59097e5ea350eb5b35cd817e531baf7abf4f97d0e5e24e": {
+                "Name": "exam-web-server",
+                "EndpointID": "642d1363e246a1e6d218c058a64e9ec0c1da406a5f3302b2a2ce653dc442b898",
+                "MacAddress": "0a:84:bb:60:f9:fd",
+                "IPv4Address": "172.20.0.2/16",
+                "IPv6Address": ""
+            },
+            "d5dba87f1392eeafb640c9126df316ef035cbd80fcf908d762453680ca718915": {
+                "Name": "exam-health-checker",
+                "EndpointID": "6bda76823390ff62992655d01faa5b4c48fd0dbe5b560abd10cccd0524c1e287",
+                "MacAddress": "d6:ef:0d:a5:99:6c",
+                "IPv4Address": "172.20.0.3/16",
+                "IPv6Address": ""
+            }
+        },
+        "Status": {
+            "IPAM": {
+                "Subnets": {
+                    "172.20.0.0/16": {
+                        "IPsInUse": 5,
+                        "DynamicIPsAvailable": 65531
+                    }
+                }
+            }
+        }
+    }
+]

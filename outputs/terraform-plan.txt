@@ -1,0 +1,13 @@
+module.docker_app.docker_volume.exam_web_data: Refreshing state... [id=exam-web-data]
+module.docker_app.docker_image.curl: Refreshing state... [id=sha256:935d9100e9ba842cdb060de42472c7ca90cfe9a7c96e4dacb55e79e560b3ff40curlimages/curl:8.17.0]
+module.docker_app.docker_network.exam_network: Refreshing state... [id=832d5e72f6cdc27d1c0369f38a2b66c0d18464e7dd4fedde420346b0c32ceb07]
+module.docker_app.docker_image.nginx: Refreshing state... [id=sha256:09369da6b10306312cd908661320086bf87fbae1b6b0c49a1f50ba531fef2eabnginx:1.27.4]
+gitea_repository.terraform_docker_exam: Refreshing state... [id=1]
+gitea_repository_branch_protection.main: Refreshing state... [id=main]
+module.docker_app.docker_container.exam_web_server: Refreshing state... [id=4d7121c41d0a863c8a59097e5ea350eb5b35cd817e531baf7abf4f97d0e5e24e]
+module.docker_app.docker_container.exam_health_checker: Refreshing state... [id=d5dba87f1392eeafb640c9126df316ef035cbd80fcf908d762453680ca718915]
+
+No changes. Your infrastructure matches the configuration.
+
+Terraform has compared your real infrastructure against your configuration
+and found no differences, so no changes are needed.
